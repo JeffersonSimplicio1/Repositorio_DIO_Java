@@ -19,8 +19,9 @@ public class parImpar {
         int count = 0;
 
         do{
-            System.out.println("Numero: ");
+            System.out.println("Quantos numeros você quer testar? ");
             numero = scanner.nextInt();
+            count++;
             
             if (numero % 2 == 0) { quantPar++;
                 
@@ -31,7 +32,7 @@ public class parImpar {
             
             
             
-            count++;
+            
         } while(count < quantNumeros);
 
         System.out.println("Você escreveu " + quantPar + " numeros pares");
